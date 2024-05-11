@@ -31,7 +31,7 @@ export default function MainSlider() {
     <div className="col-md-8">
    
       <div>
-        <img className='w-100' src={sliders1} alt="" />
+        <img className='w-100' src={sliders3} alt="" />
         
       </div>
    

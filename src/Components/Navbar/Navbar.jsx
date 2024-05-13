@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import style from './Navbar.module.css'
-import logo from "../../assets/images/freshcart-logo.svg"
+import logo from "../../assets/images/Logo.jpeg"
+
 import { Link } from 'react-router-dom'
 import { cartContext } from '../../Context/CartContext.js'
 export default function Navbar({user,logout}) {
@@ -10,10 +11,12 @@ export default function Navbar({user,logout}) {
   },[])
   return (
    <>
-   <nav className="navbar navbar-expand-md navbar-light fixed-top bg-light ">
+   <nav className="navbar navbar-expand-md navbar-light fixed-top  " style={{background:'#fff'}}>
       <div className="container">
       <Link className="navbar-brand " to="/">
-        <h4 className="fw-bolder text-primary">ECommrece</h4>
+     <div className="w-100">
+     <img style={{height:"50px",width:"50px"}} src={logo} alt="" />
+     </div>
       </Link>
       <button className="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
         aria-expanded="false" aria-label="Toggle navigation">

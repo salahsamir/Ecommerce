@@ -39,7 +39,7 @@ export default function MainSlider() {
     <div className="col-md-4 mt-5">
       <div className="">
         <h2 className='fw-bold text-main mb-2'>E-Commerce</h2>
-        <p>Welcome to [Your E-commerce Website Name], your one-stop destination for all your shopping needs! Explore an extensive range of products from the comfort of your home, with just a click of a button. Whether you're looking for the latest fashion trends, cutting-edge electronics, home essentials, or unique gifts, we've got you covered.</p>
+        <p>Welcome to Nova Shop, your one-stop destination for all your shopping needs! Explore an extensive range of products from the comfort of your home, with just a click of a button. Whether you're looking for the latest fashion trends, cutting-edge electronics, home essentials, or unique gifts, we've got you covered.</p>
       
 
       </div>

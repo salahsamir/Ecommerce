@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
     <Helmet>
-                <title>Home</title>
+                <title>Nova Shop</title>
             </Helmet>
     <MainSlider/>
    
